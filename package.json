@@ -9,8 +9,7 @@
     "start": "node dist/index.js"
   },
   "engines": {
-    "node": "18.x",
-    "bun": "1.0.0"
+    "node": "18.x"
   },
   "dependencies": {
     "cors": "^2.8.5",
