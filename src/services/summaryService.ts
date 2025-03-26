@@ -1,6 +1,6 @@
-import * as phonesRepository from "../respositories/phonesRepository";
-import * as rechargesRepository from "../respositories/rechargesRepository";
-import * as carriersRepository from "../respositories/carrierRepository";
+import * as phonesRepository from "../repositories/phonesRepository";
+import * as rechargesRepository from "../repositories/rechargesRepository";
+import * as carriersRepository from "../repositories/carrierRepository";
 
 export async function getSummaryByDocument(document: string) {
   const client = await phonesRepository.findClientByDocument(document);

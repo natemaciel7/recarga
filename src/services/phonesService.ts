@@ -1,4 +1,4 @@
-import * as phonesRepository from "../respositories/phonesRepository";
+import * as phonesRepository from "../repositories/phonesRepository";
 import { Phone } from "../protocols/phone";
 import { Client } from "../protocols/client";
 

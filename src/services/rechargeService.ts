@@ -1,5 +1,5 @@
-import * as rechargesRepository from "../respositories/rechargesRepository";
-import * as phonesRepository from "../respositories/phonesRepository";
+import * as rechargesRepository from "../repositories/rechargesRepository";
+import * as phonesRepository from "../repositories/phonesRepository";
 
 type RechargeInput = {
   phoneId: number;
